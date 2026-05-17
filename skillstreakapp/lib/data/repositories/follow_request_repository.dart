@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/follow_request_model.dart';
 
 class FollowRequestRepository {
-  static const String _baseUrl = 'https://skill-streak-app.onrender.com/';
+  static const String _baseUrl = 'https://skill-streak-app.onrender.com';
 
   /// Send a follow request from [fromUserId] to [toUserId]
   Future<Map<String, dynamic>> sendFollowRequest({
