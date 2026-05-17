@@ -6,7 +6,7 @@ import '../models/talent_model.dart';
 
 class TalentRepository {
   // 🔹 Use this for Android Emulator
-  static const String _baseUrl = 'http://localhost:8080';
+  static const String _baseUrl = 'https://skill-streak-app.onrender.com/';
 
   // 🔹 Use this instead when testing on real mobile (same WiFi)
   // static const String _baseUrl = 'http://192.168.1.100:8080';

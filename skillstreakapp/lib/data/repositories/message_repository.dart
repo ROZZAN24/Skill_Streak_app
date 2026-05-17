@@ -4,7 +4,7 @@ import '../models/message_model.dart';
 
 class MessageRepository {
   // 🔹 Use this for Android Emulator
-  static const String _baseUrl = 'http://localhost:8080/messages';
+  static const String _baseUrl = 'https://skill-streak-app.onrender.com/messages';
 
   // ================= GET INBOX =================
   Future<List<InboxSummary>> getInbox(String userId) async {
